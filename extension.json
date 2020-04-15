@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Essential assets"
+  },
+  "description": {
+    "en": "Adds a object to the Tender object to describe the assets used for the provision of public services."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_essentialAssets_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}
