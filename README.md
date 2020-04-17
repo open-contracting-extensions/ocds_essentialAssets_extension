@@ -1,6 +1,6 @@
 # Essential assets
 
-Adds a object to the Tender object to describe the assets used for the provision of public services.
+Adds a object to the tender object to describe the assets used for the provision of public services.
 
 ## Legal context
 
