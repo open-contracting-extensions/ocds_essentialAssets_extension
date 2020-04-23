@@ -6,7 +6,7 @@
     "en": "Adds a object to the tender object to describe the assets used for the provision of public services."
   },
   "documentationUrl": {
-    "en": "https://extensions.open-contracting.org/en/extensions/essentialAssets/master/"
+    "en": "https://extensions.open-contracting.org/en/extensions/essentialAssets/"
   },
   "compatibility": [
     "1.1"
