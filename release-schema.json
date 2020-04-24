@@ -28,7 +28,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "significance": {
           "title": "Significance",
@@ -36,7 +37,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "predominance": {
           "title": "Predominance",
@@ -44,9 +46,11 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         }
-      }
+      },
+      "minProperties": 1
     }
   }
 }
