@@ -17,6 +17,23 @@
         }
       }
     },
+    "Lot": {
+      "properties": {
+        "essentialAssets": {
+          "title": "Essentials assets",
+          "description": "Information about the assets used for the provision of public services.",
+          "$ref": "#/definitions/EssentialAssets"
+        },
+        "hasEssentialAssets": {
+          "title": "Has essential assets",
+          "description": "Whether there is information about the assets used for the provision of public services.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
     "EssentialAssets": {
       "title": "Essential assets",
       "description": "Information about the assets used for the provision of public services.",
@@ -33,7 +50,7 @@
         },
         "significance": {
           "title": "Significance",
-          "description": "Share of the essential assets provided in relation to the overall assets needed for the provision of the public services.",
+          "description": "Estimated percentage share of the essential assets provided in relation to the overall assets needed for the provision of the public services.",
           "type": [
             "string",
             "null"
@@ -42,7 +59,7 @@
         },
         "predominance": {
           "title": "Predominance",
-          "description": "Estimated share of assets provided compared to assets used for activities other than the public services.",
+          "description": "Estimated percentage share of assets provided compared to assets used for activities other than the public services.",
           "type": [
             "string",
             "null"
