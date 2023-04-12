@@ -1,12 +1,12 @@
 # Essential assets
 
-Adds a object to the tender and lot objects to describe the assets used for the provision of public services.
+Adds an object to the tender and lot objects to describe the assets used for the provision of public services.
 
 If you are using the [Lots extension](https://extensions.open-contracting.org/en/extensions/lots/master/), [follow its guidance](https://extensions.open-contracting.org/en/extensions/lots/master/#usage) on whether to use `tender.lots` fields or `tender` fields.
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms OPT-020-Contract (Assets related contract extension indicator), OPT-021-Contract (Used asset), OPT-022-Contract (Significance (%)), and OPT-023-Contract (Precominance (%))](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/).
+In the European Union, this extension's fields correspond to [Article 4, clause 4 of Regulation 1370/2007](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32007R1370) and [eForms OPP-020-Contract (Assets related contract extension indicator), OPP-021-Contract (Used asset), OPP-022-Contract (Significance (%)), and OPP-023-Contract (Predominance (%))](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/).
 
 ## Examples
 
