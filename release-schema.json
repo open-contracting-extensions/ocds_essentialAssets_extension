@@ -21,8 +21,14 @@
       "properties": {
         "essentialAssets": {
           "title": "Essentials assets",
+          "type": "array",
           "description": "Information about the assets used for the provision of public services.",
-          "$ref": "#/definitions/EssentialAssets"
+          "items": {
+            "$ref": "#/definitions/EssentialAssets"
+          },
+          "wholeListMerge": true,
+          "uniqueItems": true,
+          "minItems": 1
         },
         "hasEssentialAssets": {
           "title": "Has essential assets",

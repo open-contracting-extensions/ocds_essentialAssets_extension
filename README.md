@@ -34,11 +34,13 @@ In the European Union, this extension's fields correspond to [Article 4, clause 
       {
         "id": "LOT-0001",
         "hasEssentialAssets": true,
-        "essentialAssets": {
-          "description": "Significant investments have been made by the supplier in the past years and will continue to be so in the future, which will pay for themselves over a period of time well beyond the period of the contract. It includes the purchase of new vehicles, the maintenance of the modernization of the existing fleet and the renovation of the vehicle depots.",
-          "significance": "30",
-          "predominance": "40"
-        }
+        "essentialAssets": [
+          {
+            "description": "Significant investments have been made by the supplier in the past years and will continue to be so in the future, which will pay for themselves over a period of time well beyond the period of the contract. It includes the purchase of new vehicles, the maintenance of the modernization of the existing fleet and the renovation of the vehicle depots.",
+            "significance": "30",
+            "predominance": "40"
+          }
+        ]
       }
     ]
   }
@@ -50,6 +52,10 @@ In the European Union, this extension's fields correspond to [Article 4, clause 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2023-06-13
+
+* Convert `Lot.essentialAssets` from an object to an array.
 
 ### 2023-04-05
 
