@@ -20,7 +20,7 @@
     "Lot": {
       "properties": {
         "essentialAssets": {
-          "title": "Essentials assets",
+          "title": "Essential assets",
           "type": "array",
           "description": "Information about the assets used for the provision of public services.",
           "items": {
