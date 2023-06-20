@@ -6,7 +6,7 @@ If you are using the [Lots extension](https://extensions.open-contracting.org/en
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [Article 4, clause 4 of Regulation 1370/2007](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32007R1370) and [eForms OPP-020-Contract (Assets related contract extension indicator), OPP-021-Contract (Used asset), OPP-022-Contract (Significance (%)), and OPP-023-Contract (Predominance (%))](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the correspondences to eForms fields. See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [Article 4, clause 4 of Regulation 1370/2007](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32007R1370) and [eForms OPP-020-Contract (Assets related contract extension indicator), OPP-021-Contract (Used asset), OPP-022-Contract (Significance (%)), and OPP-023-Contract (Predominance (%))](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/).For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/). For correspondences to Tenders Electronic Daily (TED), see [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/latest/en/).
 
 ## Examples
 
