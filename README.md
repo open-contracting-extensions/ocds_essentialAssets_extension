@@ -55,7 +55,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-06-13
 
-* Convert `Lot.essentialAssets` from an object to an array.
+* Change `Lot.essentialAssets` from an object to an array.
 
 ### 2023-04-05
 
