@@ -5,7 +5,7 @@
         "essentialAssets": {
           "title": "Essentials assets",
           "description": "Information about the assets used for the provision of public services.",
-          "$ref": "#/definitions/EssentialAssets"
+          "$ref": "#/definitions/EssentialAsset"
         },
         "hasEssentialAssets": {
           "title": "Has essential assets",
@@ -24,7 +24,7 @@
           "type": "array",
           "description": "Information about the assets used for the provision of public services.",
           "items": {
-            "$ref": "#/definitions/EssentialAssets"
+            "$ref": "#/definitions/EssentialAsset"
           },
           "wholeListMerge": true,
           "uniqueItems": true,
@@ -40,14 +40,14 @@
         }
       }
     },
-    "EssentialAssets": {
-      "title": "Essential assets",
-      "description": "Information about the assets used for the provision of public services.",
+    "EssentialAsset": {
+      "title": "Essential asset",
+      "description": "Information about the asset used for the provision of public services.",
       "type": "object",
       "properties": {
         "description": {
           "title": "Description",
-          "description": "Description of the essential assets.",
+          "description": "Description of the essential asset.",
           "type": [
             "string",
             "null"
@@ -56,7 +56,7 @@
         },
         "significance": {
           "title": "Significance",
-          "description": "Estimated percentage share of the essential assets provided in relation to the overall assets needed for the provision of the public services.",
+          "description": "Estimated percentage share of the essential asset provided in relation to the overall asset needed for the provision of the public services.",
           "type": [
             "string",
             "null"
@@ -65,7 +65,7 @@
         },
         "predominance": {
           "title": "Predominance",
-          "description": "Estimated percentage share of assets provided compared to assets used for activities other than the public services.",
+          "description": "Estimated percentage share of asset provided compared to asset used for activities other than the public services.",
           "type": [
             "string",
             "null"
